@@ -30,7 +30,7 @@
 	     
 	   </target>
 	   <target name="run" depends="compile">
-	   	<java classname="edu.umb.cs681.hw9.ConcurrentSingleton">
+	   	<java classname="edu.umb.cs681.hw09.ConcurrentSingleton">
 	   			<classpath refid="classpath"></classpath>
 	   		</java>
 	   
@@ -38,7 +38,7 @@
 	   </target>
 	   <target name="clean" depends="run">
 	      <delete includeemptydirs="true">
-	         <fileset dir="${bin}/edu/umb/cs681/hw9" includes="*/" />
+	         <fileset dir="${bin}/edu/umb/cs681/hw09" includes="*/" />
 	        
 	      </delete>
 	   </target>
